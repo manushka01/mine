@@ -755,21 +755,29 @@ text-align:center;
     }
 
     header{
-        flex-wrap:wrap;
-        justify-content:center;
-        text-align:center;
-        padding:15px 20px;
-        gap:15px;
+        padding:12px 15px;
+        gap:12px;
     }
 
     .logo img{
-        width:150px;
+        width:110px;
     }
 
     .contact{
-        justify-content:center;
-        flex-wrap:wrap;
-        text-align:left;
+        gap:8px;
+    }
+
+    .contact i{
+        font-size:14px;
+    }
+
+    .contact h3{
+        font-size:13px;
+        margin-bottom:2px;
+    }
+
+    .contact p{
+        font-size:10px;
     }
 
     .hero{
