@@ -11,10 +11,12 @@ color:white;
 
 .form-box{
 width:700px;
+max-width:92%;
 background:#05102b;
 padding:80px;
 border-radius:20px;
 border:1px solid #444;
+box-sizing:border-box;
 }
 
 .progress{
@@ -208,7 +210,8 @@ line-height:1.6;
 .continue-btn{
     display:block;
     margin:35px auto;
-    width:320px;
+    width:100%;
+    max-width:320px;
     padding:18px;
     border:none;
     border-radius:45px;
@@ -270,4 +273,32 @@ line-height:1.6;
     line-height:1.7;
     max-width:480px;
     margin:0 auto;
+}
+
+@media(max-width:768px){
+    .form-box{
+        padding:35px 20px;
+    }
+
+    .back-btn{
+        left:5px;
+        top:20px;
+    }
+
+    .form-group input{
+        width:100%;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+        gap:14px;
+        margin-top:20px;
+    }
+
+    .option{
+        padding:18px 20px;
+        border-radius:16px;
+        font-size:15px;
+        text-align:center;
+    }
 }
