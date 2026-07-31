@@ -6,7 +6,7 @@ body{
 background:#080b14;
 font-family:Arial;
 margin:0;
-display:flex;
+display:flex; 
 justify-content:center;
 align-items:center;
 min-height:100vh;
