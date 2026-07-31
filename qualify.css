@@ -281,8 +281,12 @@ line-height:1.6;
     }
 
     .back-btn{
-        left:5px;
-        top:20px;
+        position:static;
+        display:block;
+        font-size:28px;
+        text-align:left;
+        margin:0 0 10px 0;
+        padding:0;
     }
 
     .form-group input{
