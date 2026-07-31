@@ -496,106 +496,6 @@ text-align:center;
     to{opacity:1; transform:translateY(0);}
 }
 
-@media(max-width:768px){
-    .container{width:92%;}
-
-    .compare-section h1{
-        font-size:38px;
-    }
-
-    .tab{
-        font-size:16px;
-        padding:12px 18px;
-    }
-
-    .content-box h2{
-        font-size:30px;
-    }
-
-    .content-box p,
-    .content-box li{
-        font-size:18px;
-    }
-
-    .footer-container{
-        width:90%;
-        grid-template-columns:1fr;
-        gap:40px;
-        padding:40px 0;
-    }
-
-    .money-container{
-        width:90%;
-        flex-direction:column;
-        text-align:center;
-        gap:20px;
-    }
-
-    .reduce-payment{
-        padding:60px 6%;
-        gap:30px;
-    }
-
-    .payment-image,
-    .payment-content{
-        min-width:0;
-        width:100%;
-    }
-
-    header{
-        flex-wrap:wrap;
-        justify-content:center;
-        text-align:center;
-        padding:15px 20px;
-        gap:15px;
-    }
-
-    .logo img{
-        width:150px;
-    }
-
-    .contact{
-        justify-content:center;
-        flex-wrap:wrap;
-        text-align:left;
-    }
-
-    .hero{
-        padding-left:20px;
-        padding-right:20px;
-    }
-
-    .content{
-        max-width:100%;
-    }
-
-    .features{
-        padding:25px 20px;
-    }
-
-    .feature-box{
-        width:100%;
-        max-width:280px;
-    }
-
-    .company-section{
-        padding:35px 5% 40px;
-    }
-
-    .logo-grid{
-        grid-template-columns:repeat(2,1fr);
-        gap:25px 20px;
-    }
-
-    .money-helper,
-    .reduce-payment,
-    .company-section,
-    .compare-section{
-        width:100%;
-        overflow:hidden;
-    }
-}
-
 .money-helper{
 
     background:#1c1d1f;
@@ -796,4 +696,114 @@ text-align:center;
 
 .call-btn:hover{
     transform:scale(1.1);
+}
+/* ==========================
+   MOBILE RESPONSIVE (kept at end on purpose so nothing above overrides it)
+========================== */
+@media(max-width:768px){
+    .container{width:92%;}
+
+    .compare-section h1{
+        font-size:38px;
+    }
+
+    .tab{
+        font-size:16px;
+        padding:12px 18px;
+    }
+
+    .content-box h2{
+        font-size:30px;
+    }
+
+    .content-box p,
+    .content-box li{
+        font-size:18px;
+    }
+
+    .footer-container{
+        width:90% !important;
+        grid-template-columns:1fr !important;
+        gap:40px !important;
+        padding:40px 0 !important;
+    }
+
+    .money-helper{
+        padding:30px 20px !important;
+    }
+
+    .money-container{
+        width:100% !important;
+        flex-direction:column !important;
+        text-align:center;
+        gap:20px !important;
+    }
+
+    .money-logo img{
+        width:130px !important;
+    }
+
+    .reduce-payment{
+        padding:60px 6%;
+        gap:30px;
+    }
+
+    .payment-image,
+    .payment-content{
+        min-width:0;
+        width:100%;
+    }
+
+    header{
+        flex-wrap:wrap;
+        justify-content:center;
+        text-align:center;
+        padding:15px 20px;
+        gap:15px;
+    }
+
+    .logo img{
+        width:150px;
+    }
+
+    .contact{
+        justify-content:center;
+        flex-wrap:wrap;
+        text-align:left;
+    }
+
+    .hero{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .content{
+        max-width:100%;
+    }
+
+    .features{
+        padding:25px 20px;
+    }
+
+    .feature-box{
+        width:100%;
+        max-width:280px;
+    }
+
+    .company-section{
+        padding:35px 5% 40px;
+    }
+
+    .logo-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px 20px;
+    }
+
+    .money-helper,
+    .reduce-payment,
+    .company-section,
+    .compare-section{
+        width:100%;
+        overflow:hidden;
+    }
 }
